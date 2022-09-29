@@ -1,0 +1,50 @@
+header{ 
+    padding: 1.875rem 1.875rem;
+}
+
+#logo{
+    width: 14rem;
+}
+
+
+            /* LOGIN */
+
+.containerLogin{
+    height: 15.625rem;
+    margin-top: 3.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titleLogin{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0.938rem;
+}
+.containerInput{
+    flex-direction: column;
+    display: flex;
+}
+.containerInput input{
+    font-size: 1.063rem;
+    width: 25rem;
+    padding: 0.563rem 0.938rem;
+    border-radius: 1.25rem;
+    border-style: none;
+    margin-bottom: 0.938rem;
+}
+.containerInput input::placeholder{
+    color: #A39898;
+}
+#buttonInput{
+    font-size: 0.938rem;
+    padding: 0.5rem 0.625rem;
+    border-radius: 1.25rem;
+    border-style: none;
+    color: white;
+    background-color: #212121;
+    width: 7.5rem;
+    margin-left: 8.75rem;
+    font-weight: bold;
+}
