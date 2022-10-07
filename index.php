@@ -4,7 +4,7 @@
 <title> Grafico </title>
 <link href="styles/style.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body id="apuracao">
 <?php
   // definindo porcentagem
   $width1 = '25,26%';
