@@ -39,3 +39,17 @@ include_once './includes/header.php';
       <button><span>ENVIAR</span> <i class="fa fa-check"></i></button>
    </div>
 </div>
+<?php
+
+$arquivo = fopen("partidos.csv");
+
+while ( $linha = fgetcsv($arquivo, 1000, ",") ) {
+   if( $inha[0] != 'cod') {
+      echo '<pre>';
+      print_r($linha);
+      echo '</pre>';
+   }
+}
+
+fclose($arquivo);
+?>
